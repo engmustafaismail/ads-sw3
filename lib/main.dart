@@ -1,5 +1,6 @@
 import 'package:ads_sw3/login_page.dart';
 import 'package:flutter/material.dart';
+ import 'package:ads_sw3/ad_details_page.dart';
 
 
 void main() {
@@ -22,6 +23,7 @@ class ClassifiedAdsApp extends StatelessWidget {
       initialRoute: '/login',
       routes: {
       '/login': (context) => const LoginPage(),
+      '/ad_details': (context) => const AdDetailsPage(),
       },
     );
   }
