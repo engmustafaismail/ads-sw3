@@ -1,4 +1,6 @@
+import 'package:ads_sw3/home_page.dart';
 import 'package:ads_sw3/login_page.dart';
+import 'package:ads_sw3/register_page.dart';
 import 'package:flutter/material.dart';
  import 'package:ads_sw3/ad_details_page.dart';
 
@@ -22,8 +24,10 @@ class ClassifiedAdsApp extends StatelessWidget {
       ),
       initialRoute: '/login',
       routes: {
-      '/login': (context) => const LoginPage(),
-      '/ad_details': (context) => const AdDetailsPage(),
+       '/login': (context) => const LoginPage(),
+        '/register': (context) => const RegisterPage(),
+        '/home': (context) => const HomePage(),
+        '/ad_details': (context) => const AdDetailsPage(),
       },
     );
   }
