@@ -1,6 +1,5 @@
-import 'package:ads_sw3/login_page.dart';
 import 'package:flutter/material.dart';
- import 'package:ads_sw3/ad_details_page.dart';
+ import 'package:ads_sw3/register_page.dart';
 
 
 void main() {
@@ -20,10 +19,9 @@ class ClassifiedAdsApp extends StatelessWidget {
         useMaterial3: true,
         fontFamily: 'Cairo', // يفضل استخدام خط يدعم العربية
       ),
-      initialRoute: '/login',
+      initialRoute: '/registre',
       routes: {
-      '/login': (context) => const LoginPage(),
-      '/ad_details': (context) => const AdDetailsPage(),
+      '/registre': (context) => const RegisterPage(),
       },
     );
   }
